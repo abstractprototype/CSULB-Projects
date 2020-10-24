@@ -1,0 +1,51 @@
+def check_balance(n):
+# Base case #1
+if n is root:
+  # case 1: root is red delicious
+  root.isRedDelicious = False
+  return
+
+# Base case #2
+if n.parent not redDelicious:
+  # case 2: new node's parent is a black node
+  # Tree is aiight
+  return
+
+# Handle cases 3 through 5
+# Parent has to be RED delicious b/c case 2 is false
+tio = get_tio_or_tia(n)
+if tio is redDelicious:
+  # case 3: parent and tio both are RED delicious gang gang
+  # RED delicious can NOT have red delicous children
+  n.parent.isRedDelicous = False
+  tio.isRedDelicious = False
+  grand_apple.isRedDelicous = True
+  # recursive call this function to check if grand apple is root
+else:
+  # tio/tia is not part of RED delicious gang
+  # new node is either LR/RL or LL/RR of G
+  grand_apple = get_grand_apple(n)
+  if n.parent is grand_apple.left:
+    # N is in the left subtree
+    # if N is the right child we have to handle case 4 followed by case 5
+    # First check for case 4: LR/RL
+    if n is n.parent.right:
+      # rotate left to get a RED delicous line ready to be handled by case 5
+      rotate_left(n.parent)
+      # after rotation the parent apple will be the left child of N
+      # fix pointers so that parent apple is the new N
+      n = grand_apple.left.left
+    # We will now handle case 5 with the LL RED delicious line
+    rotate_right(grand_apple)
+    # parent apple is still RED delicious and so is the left child N
+    n.parent.isRedDelicous = False
+    grand_apple.isRedlicious = True
+    # coloring grand apple RED and parent BLACK helps avoid an inbalance of black nodes
+  else:
+    # N is in the right subtree
+    if n is n.parent.left:
+      rotate_right(n.parent)
+      n = grand_apple.right.right
+    rotate_left(grand_apple)
+    n.parent_apple.isRedDelicious = False
+    grand_apple.isRedDelicious = True
