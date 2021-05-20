@@ -1,0 +1,176 @@
+Saved.GAM file 
+
+99 = 63
+999 = E7 03
+9,999 = OF 27
+
+General Information Offsets 
+---------------------------
+x204 - Gold
+x206 - Keys
+x207 - Gems
+x20B - Skull Keys
+x218 - Black Badge
+x240 - Magic Axe
+x2B5 - # Party Members
+
+
+SirVinky
+--------
+x0E - Str 99
+x0F - Dex 99
+x10 - Int 99 
+x12/13 - HP 999
+x14/15 - Max HP  999
+x16 - Exp 9999
+x18 - Level 99
+
+Shamino
+--------
+x2E - Str 
+x2F - Dex
+x30 - Int
+x32/33 - HP
+x34/35 - Max HP
+x36 - Exp
+x38 - Level
+
+Iolo
+--------
+x4E - Str
+x4F - Dex
+x50 - Int
+x52/53 - HP
+x54/55 - Max HP
+x56 - Exp
+x58 - Level
+
+Mariah
+--------
+x6E - Str
+x6F - Dex
+x70 - Int
+x72/73 - HP
+x74/75 - Max HP
+x76 - Exp
+x78 - Level
+
+Geoffrey
+--------
+x8E - Str
+x8F - Dex
+x90 - Int
+x92/93 - HP
+x94/95 - Max HP
+x96 - Exp
+x98 - Level
+
+Jaana
+--------
+xAE - Str
+xAF - Dex
+xB0 - Int
+xB2/B3 - HP
+xB4/B5 - Max HP
+xB6 - Exp
+xB8 - Level
+
+Julia
+--------
+xCE - Str
+xCF - Dex
+xD0 - Int
+xD2/D3 - HP
+xD4/D5 - Max HP
+xD6 - Exp
+xD8 - Level
+
+Dupre
+---------
+xEE - Str
+xEF - Dex
+xF0 - Int
+xF2/F3 - HP
+xF4/F5 - Max HP
+xF6 - Exp
+xF8 - Level
+
+Katrina
+--------
+x10E - Str
+x10F - Dex
+x110 - Int
+x112/113 - HP
+x114/115 - Max HP
+x116 - Exp
+x118 - Level
+
+Sentri
+--------
+x12E - Str
+x12F - Dex
+x130 - Int
+x132/133 - HP
+x134/135 - Max HP
+x136 - Exp
+x138 - Level
+
+Gwenno
+--------
+x14E - Str
+x14F - Dex
+x150 - Int
+x152/153 - HP
+x154/155 - Max HP
+x156 - Exp
+x158 - Level
+
+Johne
+--------
+x16E - Str
+x16F - Dex
+x170 - Int
+x172/173 - HP
+x174/175 - Max HP
+x176 - Exp
+x178 - Level
+
+Gorn
+--------
+x18E - Str
+x18F - Dex
+x190 - Int
+x192/193 - HP
+x194/195 - Max HP
+x196 - Exp
+x198 - Level
+
+Maxwell
+--------
+x1AE - Str
+x1AF - Dex
+x1B0 - Int
+x1B2/1B3 - HP
+x1B4/1B5 - Max HP
+x1B6 - Exp
+x1B8 - Level
+
+Toshi
+--------
+x1CE - Str
+x1CF - Dex
+x1D0 - Int
+x1D2/1D3 - HP
+x1D4/1D5 - Max HP
+x1D6 - Exp
+x1D8 - Level
+
+Saduj
+--------
+x1EE - Str
+x1EF - Dex
+x1F0 - Int
+x1F2/1F3 - HP
+x1F4/1F5 - Max HP
+x1F6 - Exp
+x1F8 - Level
